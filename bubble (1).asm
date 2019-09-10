@@ -12,7 +12,7 @@ N EQU ($-A)
        MOV SI,00
     INNERLOOP:
        MOV AX,A[SI]
-       ADD SI,002H
+       ADD SI,02H
        CMP AX,A[SI]
        JB NOXG
        XCHG AX,A[SI]
